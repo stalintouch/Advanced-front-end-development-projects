@@ -1,0 +1,95 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body, html {
+  height:100%;
+  width:100%;
+  background: #333333;
+  color:salmon;
+  font-family: 'Indie Flower', cursive;
+}
+table {
+  position:relative;
+  background: #333333;
+  z-index:2;
+}
+
+td {
+  width:10rem;
+  height:10rem;
+  font-size:5rem;
+  
+}
+.col-centered{
+  float:none;
+  margin:0 auto;
+}
+
+#toggle {  
+  position:absolute;
+  display:none;
+  width: 10rem; 
+  height: 10rem;
+  margin-top:-4rem;
+  color:white;
+  z-index:1;
+  border-radius:10px;
+  font-size:1.3rem;
+}   
+
+h1 {
+  text-transform:uppercase;
+}
+.score-container {
+  width:30rem; 
+  display:inline-block;
+}
+
+/* Success modal */
+.modal-header-success {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background: #333333;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+
+/* danger modal */
+.modal-header-danger {
+  color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background: #333333;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+.modal-header-info {
+    color:salmon;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background: #333333;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+form{
+  color:salmon;
+  font-size:28px;
+}
+.btn {
+  background-color:#4520BD;
+  color:white;
+}

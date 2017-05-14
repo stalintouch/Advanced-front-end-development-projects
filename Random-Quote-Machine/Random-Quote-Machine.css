@@ -1,0 +1,63 @@
+html,body {
+  height: 100%;
+}
+
+#logo {
+  height: 40px;
+  width: 40px;
+  margin-top: -10px;
+}
+
+.buttons {
+  margin-left: 10px;
+}
+.navbar {
+  border: 0px;
+}
+
+.empty {
+  height: 25%;
+}
+
+.quote-box {
+  background-color: white;
+  max-height: 30%;
+  max-width: 50%;
+  border-radius: 10px;
+}
+
+.second-box {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.second-box h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.buttons-quote {
+  clear: both;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+.buttons-quote a {
+  text-decoration: none;
+}
+
+#quote {
+  color: white;
+}
+
+#text-author {
+  padding-top: 30px;
+  color: white;
+}
+
+
+
+
+
+
+
+

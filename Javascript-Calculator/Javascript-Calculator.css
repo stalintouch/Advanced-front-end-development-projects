@@ -1,0 +1,26 @@
+
+.btn {
+  height: 3rem;
+  width: 5rem;
+}
+
+.display{
+  background:transparent;
+  width:97%;
+  color:#0275d8;
+}
+.result {
+  float:right;
+}
+.equals {
+  height: 6.7rem;
+  position: absolute;
+}
+
+.keys {
+  margin: 5px 5px 5px 5px;
+}
+
+.zero {
+  width: 10.6rem;
+}

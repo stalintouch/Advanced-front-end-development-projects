@@ -1,0 +1,30 @@
+body{
+  background-image: url("http://cdn.thefiscaltimes.com/sites/default/files/media/twitch-tv-2.jpg");
+  background-size: cover;
+  color: white
+}
+
+#header{
+  background: rgba(0,0,0,0.5);
+  border: 5px solid white;
+  border-radius: 25px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  border:5px solid black;
+  border-radius: 50%;
+}
+
+.col-md-4{
+  padding: 10px;
+}
+
+.row {
+  background: rgba(0,0,0,0.5);
+  border: 5px white solid;
+  border-radius: 25px;
+  margin: 10px;
+}

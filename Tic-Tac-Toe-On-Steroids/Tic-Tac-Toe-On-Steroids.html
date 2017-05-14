@@ -1,0 +1,118 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <div style="height:150px">
+        <h1>Winner Board</h1>
+        <div class="text-center score-container">
+          <div class="col-sm-6 float-left"><h2 id="player">player: <span id="playerScore">0</span></h2></div>
+          <div class="col-sm-6 float-right"><h2 id="computer">Computer: <span id="computerScore">0</span></h2></div>
+        </div>
+      </div>
+      <table  class="col-centered" border='1px'>
+
+          <div id="toggle">
+          </div>
+
+        <tr >
+          <td id="sq1"></td>
+          <td id="sq2"></td>
+          <td id="sq3"></td>
+        </tr>
+        <tr>
+          <td id="sq4"></td>
+          <td id="sq5"></td>
+          <td id="sq6"></td>
+        </tr>
+        <tr>
+          <td id="sq7"></td>
+          <td id="sq8"></td>
+          <td id="sq9"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    
+    <!--success Modal  -->
+    <div class="modal fade" id="success" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-success">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h1><i class="glyphicon glyphicon-thumbs-up"></i></h1>
+                </div>
+                <div class="modal-body">
+                  <form action="#" role="form" id="win">
+                  <h1>Would you like to play again</h1>
+                    <button type="submit" class="btn btn-secondary btn-lg" name="restart" value="yay" >Yay</button>
+                    <button type="submit" class="btn btn-secondary btn-lg" name="restart" value="nay">Nay</button>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                    
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- Success Modal -->
+    
+    
+    <!-- Danger Modal -->
+    <div class="modal fade" id="danger" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-danger">
+                    <button type="button" class="close btn btn-success btn-lg" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h1><i class="glyphicon glyphicon-thumbs-up"></i> Its a tie!</h1>
+                </div>
+                <div class="modal-body">
+                  <form action="#" role="form" id="tie">
+                  <h1>Why dont you try again buds?</h1>
+                    <button type="submit" class="btn btn-secondary btn-lg" name="restart" value="yay" >Sure</button>
+                    <button type="submit" class="btn btn-secondary btn-lg" name="restart" value="nay">Nope</button>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="looser" class="btn btn-secondary  btn-lg pull-left">I'm a looser</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!--Danger Modal -->
+    
+    <!-- Start Modal -->
+    <div class="modal fade" id="start" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal-header-info">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h1><i class="glyphicon glyphicon-thumbs-up"></i> Lets Play</h1>
+                </div>
+                <div class="modal-body">
+                  <form action="#" id='myForm' role="form" class='enter'> 
+                    <div class="col-xs-12">
+                      Enter your name friend<input type="text" id="pepe"/>
+                    </div> 
+                    <div class="col-xs-12">
+                      Please pick your symbol
+                      <input type="radio" name="playerSymbol" value="X" />X
+                      <input type="radio" name="playerSymbol" value="Y" />Y  
+                    </div> 
+                    <button class="btn btn-secondary btn-lg pull-left" type="submit" id="btn-submit">Enter</button>
+                  </form> 
+                </div>
+                <div class="modal-footer"> 
+                    
+                </div>
+            </div><!-- /.modal-content --> 
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!--Start Modal -->
+    
+  </div>
+</div>
+
+

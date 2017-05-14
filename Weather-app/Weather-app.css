@@ -1,0 +1,76 @@
+body,html {
+  height: 100%;
+}
+
+h1{
+  font-size: 60px;
+  font-family: 'Aref Ruqaa', serif;
+}
+
+#space{
+  padding-bottom: 100px;
+}
+
+.clearSky {
+  background: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRcEklKHmy3yRx2X8953kBDdWyY_IUOoOSZ8u4ko6vrCTXmAiHk') no-repeat center center fixed; 
+  -o-background-size: 100% 100%, auto;
+  -moz-background-size: 100% 100%, auto;
+  -webkit-background-size: 100% 100%, auto;
+  background-size: 100% 100%, auto;
+}
+.fewClouds{
+  background: url("http://il6.picdn.net/shutterstock/videos/2402816/thumb/1.jpg") no-repeat center center fixed; 
+  -o-background-size: 100% 100%, auto;
+  -moz-background-size: 100% 100%, auto;
+  -webkit-background-size: 100% 100%, auto;
+  background-size: 100% 100%, auto;
+}
+.scatteredClouds{
+  background: url("http://farm6.static.flickr.com/5022/5642118444_a2c00fc0bf.jpg") no-repeat center center fixed; 
+  -o-background-size: 100% 100%, auto;
+  -moz-background-size: 100% 100%, auto;
+  -webkit-background-size: 100% 100%, auto;
+  background-size: 100% 100%, auto;
+}
+.brokenClouds{
+  background: url("http://img13.deviantart.net/fa39/i/2015/052/6/1/broken_clouds_by_leo_6tos-d8ixdlv.jpg") no-repeat center center fixed; 
+  -o-background-size: 100% 100%, auto;
+  -moz-background-size: 100% 100%, auto;
+  -webkit-background-size: 100% 100%, auto;
+  background-size: 100% 100%, auto;
+}
+.showerRain{
+  background: url("https://cdn.empowernetwork.com/user_images/post/2014/03/29/9/73/5b12/540x293_20140329_9735b12e909f88d550031c5218024768_png.png") no-repeat center center fixed; 
+  -o-background-size: 100% 100%, auto;
+  -moz-background-size: 100% 100%, auto;
+  -webkit-background-size: 100% 100%, auto;
+  background-size: 100% 100%, auto;
+}
+.rain{
+  background: url("https://i.ytimg.com/vi/lasWefVUCsI/maxresdefault.jpg") no-repeat center center fixed; 
+  -o-background-size: 100% 100%, auto;
+  -moz-background-size: 100% 100%, auto;
+  -webkit-background-size: 100% 100%, auto;
+  background-size: 100% 100%, auto;
+}
+.thunderstorm{
+  background: url("http://farmersalmanac.com/wp-content/uploads/2015/06/Thunderstorm-5best.jpg") no-repeat center center fixed; 
+  -o-background-size: 100% 100%, auto;
+  -moz-background-size: 100% 100%, auto;
+  -webkit-background-size: 100% 100%, auto;
+  background-size: 100% 100%, auto;
+}
+.snow{
+  background: url("http://www.hercampus.com/sites/default/files/styles/full_width_embed/public/2016/01/17/snow1_1.jpg?itok=FxT24yeu") no-repeat center center fixed; 
+  -o-background-size: 100% 100%, auto;
+  -moz-background-size: 100% 100%, auto;
+  -webkit-background-size: 100% 100%, auto;
+  background-size: 100% 100%, auto;
+}
+.mist{
+  background: url("http://7-themes.com/data_images/out/26/6858991-mist-background.jpg") no-repeat center center fixed; 
+  -o-background-size: 100% 100%, auto;
+  -moz-background-size: 100% 100%, auto;
+  -webkit-background-size: 100% 100%, auto;
+  background-size: 100% 100%, auto;
+}
